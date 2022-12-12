@@ -3,11 +3,12 @@
  *  main - print out size of data types in C
  *  code by samaila s
  *  Return: 0
- */
+*/
 int main(void)
 {
 	char a;
 	int b;
+	long int c;
 	long long int d;
 	float f;
 
