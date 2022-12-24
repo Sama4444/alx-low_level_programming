@@ -7,7 +7,7 @@
  *
  * Return: Always 0
  */
-int_main(void)
+int main(void)
 {
 	int n;
 	int a;
@@ -18,7 +18,7 @@ int_main(void)
 
 	if (a > 5)
 	{
-		printf("last digit of %d us %d and  is grater than 5\n", n, a);
+		printf("last digit of %d is %d and  is grater than 5\n", n, a);
 	}
 	else if (a == 0)
 	{
