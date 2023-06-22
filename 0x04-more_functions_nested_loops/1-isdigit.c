@@ -2,15 +2,14 @@
 
 /**
  * _isdigit - Checks for a digit character
- * @x: The numb to be check
- * Return: 1 for a character that will be a digit of 0 for any else
+ * @c: The numb to be check
+ * Return: 0 or 1
  */
 
-int _isdigit(int x)
+int _isdigit(int c)
 {
-	if (x >= 48 && <= 57)
-	{
-	return (1);
-	}
-	return (0);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
