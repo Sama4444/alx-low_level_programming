@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - Checks for a digit character
- * @c: The numb to be check
+ * @x: The numb to be check
  * Return: 1 for a character that will be a digit of 0 for any else
  */
 
