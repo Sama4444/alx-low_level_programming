@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - straight line in the terminal
+ * print_line -straight line in the terminal
  * @n:No of times
  * Return:Always 0
  */
