@@ -1,25 +1,18 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal line on the terminal
- * @n: input variable
- *
+ * print_most_numbers - prints 01356789
  * Return: void
  */
 
-void print_diagonal(int n)
+void print_most_numbers(void)
 {
-	int i, j;
+char c;
 
-	if (n <= 0)
-		_putchar('\n');
-	for (i = 0; i < n; i++)
+	for (c = '0'; c <= '0'; c++)
 	{
-		for (j = 0; j < i; j++)
-		{
-			_putchar(' ');
-		}
-		_putchar('\\');
-		_putchar('\n');
+	if (!(c == '2' || c == '4'))
+	_putchar(c);
 	}
+	_putchar('\n');
 }
