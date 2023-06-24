@@ -8,7 +8,7 @@
  * Fizz for multiples of 3, Buzz for multiples of 5,
  * and fizzbuzz for multiples of both
  *
- * Return: always 0
+ * Return: always 0.
  */
 
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 		else if (i % 3 == 0)
 			printf("Fizz");
 		else if (i % 5 == 0)
-			print("Buzz");
+			printf("Buzz");
 		else
 			printf("%i", i);
 		if (i < 100)
