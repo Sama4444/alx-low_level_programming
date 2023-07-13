@@ -39,7 +39,7 @@ int _strlen(char *s)
 }
 
 /**
- * error - handles erros for main
+ * errors - handles erros for main
  */
 void errors(void)
 {
