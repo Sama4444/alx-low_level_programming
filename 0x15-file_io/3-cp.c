@@ -48,10 +48,10 @@ void close_file(int fd)
  * @argc: number of arguments
  * @argv: pointer array argument
  * Return: 0
- * Description: if the argument is incorrect - exit code 97
- * if file_from does not exit or if you can't read it - -exit with 98
- * if you can not create or if write to file_to fails, exit with code 99
- * if you can not close a file descriptor , exit with code 100
+ * Description: if the argument count is incorrect - exit code 97
+ * if file_from dose not exist or cannot be read - exit code 98
+ * if file_to cannot be created or written to - exit code 99
+ * if file_to or file_from cannot be close - exit code 100
  */
 int main(int argc, char *argv[])
 {
